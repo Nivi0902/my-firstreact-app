@@ -1,0 +1,121 @@
+/* ResponsiveCard.css */
+
+/* Container for the cards */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Style for each individual card */
+.card {
+  background-color: #f3f3f3;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .card-container {
+    flex-direction: column; /* Stack cards vertically on smaller screens */
+    align-items: center;
+  }
+
+  .card {
+    width: 90%; /* Make cards take more width on small screens */
+  }
+}
+
+/* Responsive design css ends here */
+
+
+/* bg image css starts here  */
+
+.bg{
+  /* width: 100; */
+  background-image: url('./images/bgimg.svg'); /* Sets the background image */
+  background-size: cover; /* Makes the background image cover the entire div */
+  background-repeat: no-repeat; /* Ensures the background does not repeat */
+  /* background-position: center; */
+  height: 100vh;
+}
+
+
+
+/* Styling for the entire app container */
+.app-container {
+  display: flex; /* Centers the content horizontally */
+  justify-content: center; /* Centers the image horizontally */
+  align-items: center; /* Centers the image vertically */
+  /* height: 100vh; Makes the container full height of the viewport */
+   /* Centers the background image */
+   gap: 36px;
+}
+
+/* Styling for the avatar image */
+.avatar {
+  width: 100px; /* Sets the avatar size */
+  height: 100px;
+}
+
+.avatar img {
+  width: 100%; /* Makes the image fit inside the avatar container */
+  height: 100%;
+  /* border-radius: 50%; Makes the image a circle */
+}
+
+/* background image css ends here  */
+
+/* body{
+  text-align: center;
+  background-image: url('./images/bgshape.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.avatar{
+  width: 100px;
+  height: 100px;
+}
+.avatar img{
+  width: 100%;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
